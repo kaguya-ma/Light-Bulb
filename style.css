@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: #e915cd71;
+  background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(63,94,251,0.2679446778711485) 100%);
+}
+
+.color {
+  background-color: #e915cd71;
+  border-color: #eb5aae;
+  border-radius: .25rem;
+  font-weight: 400;
+  color: white;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: Arial;
+}
+
+
+.color:focus {
+  background-color: #ff1a75;
+  outline-style: none;
+}
